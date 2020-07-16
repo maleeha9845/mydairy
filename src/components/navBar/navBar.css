@@ -1,0 +1,9 @@
+.navBar-container{
+  width: 3.5%;
+  height:100vh;
+  background-color:#fefefe;
+  display: flex;
+  flex-direction: column;
+  margin-right: 0px;
+  border-right: 1px solid #e7e7e7;
+}
