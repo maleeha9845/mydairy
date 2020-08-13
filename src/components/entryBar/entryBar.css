@@ -1,0 +1,13 @@
+.entryBar-container{
+  width:22%;
+  height:100Vh;
+  border-right:   solid 1px #f4f4f4;
+
+}
+.entry-body::-webkit-scrollbar {
+  width: 0px;
+}
+.entry-body{
+  overflow-y:scroll;
+   overflow-x:auto;
+}

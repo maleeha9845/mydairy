@@ -1,0 +1,8 @@
+.add{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid  #4ebdf8;
+}

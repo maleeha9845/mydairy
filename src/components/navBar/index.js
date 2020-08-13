@@ -6,19 +6,22 @@ import './navBar.css';
 import NavBtn from '../navBtn/index.js';
 
 class NavBar extends Component {
+
   constructor(props) {
      super(props);
      this.state={
        active : 'jounral',
-      }
+     }
      this.navBtnFunc=this.navBtnFunc.bind(this);
    }
+// selected style and to natigate to selected page
   navBtnFunc(active , path){
     this.setState({
         active:active
       });
     this.props.history.push(path);
   }
+
   render() {
     return (
       <div class = 'navBar-container'>

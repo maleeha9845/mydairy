@@ -5,6 +5,8 @@ import './App.css';
 import DashBoard from './pages/dashBoard/index.js';
 import Search from './pages/search/index.js';
 import Setting from './pages/settings/index.js';
+import HomePage from './pages/homePage/index.js';
+import Login from './pages/loginPage/index.js';
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
         <Route path="/dash" component={DashBoard}/>
         <Route path="/setting" component={Setting}/>
         <Route path="/search" component={Search}/>
+        <Route path="/home" component={HomePage}/>
+        <Route path="/login" component={Login}/>
       </switch>
     </Router>
 

@@ -16,16 +16,16 @@ class NavBtn extends Component {
          <button onClick = {this.props.onClick} class = 'navbtn'>
           {this.props.icon === 'journal' ?
             <GiBookmarklet size={25}   className={this.props.active ==='journal' ? 'icon-selected' : 'icon'}/> :
-            (this.props.icon === 'setting'?
-              <FiSettings size ={25} className={this.props.active === 'setting'? 'icon-selected' : 'icon'}/> :
-              (this.props.icon === 'search'  ?
-              <GoSearch size={25} className={ this.props.active  ==='search'? 'icon-selected' : 'icon'}/> :
-              'loading..'
-              )
-            )
-          }
-         </button>
-       </div>
+          (this.props.icon === 'setting'?
+            <FiSettings size ={25} className={this.props.active === 'setting'? 'icon-selected' : 'icon'}/> :
+          (this.props.icon === 'search'  ?
+            <GoSearch size={25} className={ this.props.active  ==='search'? 'icon-selected' : 'icon'}/> :
+          'loading..'
+          )
+         )
+        }
+        </button>
+      </div>
     );
   }
 }

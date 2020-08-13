@@ -1,0 +1,40 @@
+.sectionBar-container{
+  width:16.2;
+  height : 100vh;
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #f4f4f4;
+
+}
+.section-body{
+  overflow-y:scroll;
+   overflow-x:auto;
+}
+.section-body::-webkit-scrollbar {
+  width: 0px;
+}
+.secBar-header{
+  display: flex;
+  flex-direction: column;
+}
+.Tittle{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  padding-left: 20px;
+  margin:0px;
+  margin-top:10px;
+  height: 40px;
+  padding-bottom: 0px;
+}
+.section-tittle{
+  display: flex;
+  justify-content: space-between;
+}
+.slide-btn{
+  border: none;
+  font-size: bold;
+  background-color: white;
+  outline: none;
+}
